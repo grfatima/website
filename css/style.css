@@ -8,12 +8,17 @@
 
 @font-face {
   font-family: Inter;
-  src: url(../fonts/Inter/Inter-VariableFont_opsz\wght.ttf);
+  src: url(../fonts/Inter/static/Inter_18pt-Light.ttf);
 }
 
-body {
-  font-family: Inter;
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: cardo;
+  src: url(../fonts/Cardo/Cardo-Regular.ttf);
+}
+
+@font-face {
+  font-family: cardo-italic;
+  src: url(../fonts/Cardo/Cardo-Italic.ttf);
 }
 
 header {
@@ -32,10 +37,9 @@ section {
 nav {
   height: 70px;
   display: flex;
-  align-items: center;
   font-family: Inter;
+  align-items: center;
   justify-content: space-between;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .logoSocial {
@@ -84,8 +88,80 @@ nav {
 
   .button a {
     color: black;
-    padding: 6px 8px;
     font-size: 15px;
+    padding: 6px 8px;
+    font-family: cardo;
     background-color: #ffca42;
+  }
+}
+
+.descriptionImg {
+  gap: 100px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+
+  img {
+    width: 50vh;
+    padding-top: 50px;
+  }
+}
+
+.title {
+  color: white;
+  padding-top: 70px;
+
+  h4 {
+    font-family: cardo-italic;
+  }
+
+  h2 {
+    font-size: 62px;
+    margin-top: 17px;
+    font-family: cardo;
+  }
+
+  p {
+    width: 65vh;
+    font-size: 15px;
+    color: #b4c7e7;
+    font-family: inter;
+    margin: 20px 0 30px 0;
+  }
+}
+
+.buttonRight {
+  display: grid;
+  margin-bottom: 30px;
+  grid-template-columns: 1fr 1fr;
+
+  .button a {
+    color: black;
+    font-size: 15px;
+    padding: 6px 8px;
+    font-family: cardo;
+    background-color: #ffca42;
+  }
+
+  .right a {
+    color: white;
+    font-family: cardo;
+    border-bottom: 1px solid white;
+  }
+}
+
+.sectionEnd {
+  display: grid;
+  color: white;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  h2 {
+    font-family: cardo;
+  }
+
+  p {
+    font-size: 12px;
+    font-family: inter;
+    color: #b4c7e7;
   }
 }
