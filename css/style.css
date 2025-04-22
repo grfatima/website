@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter/Inter-VariableFont_opsz\wght.ttf);
+}
+
+body {
+  font-family: Inter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #1b3764;
+}
+
+section {
+  background-color: #1b3764;
+}
+
+.container {
+  margin: auto;
+  max-width: 1320px;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-family: Inter;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logoSocial {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+
+  .logo {
+    gap: 10px;
+    display: flex;
+    text-align: center;
+
+    img {
+      width: 3vh;
+    }
+
+    a {
+      color: white;
+    }
+  }
+
+  .social {
+    padding: 10px 20px;
+    background-color: white;
+  }
+}
+
+.linksButton {
+  gap: 35px;
+  display: flex;
+  align-items: center;
+
+  .links {
+    gap: 30px;
+    display: flex;
+
+    a {
+      color: white;
+      font-size: 17px;
+    }
+  }
+
+  .cart img {
+    width: 4vh;
+  }
+
+  .button a {
+    color: black;
+    padding: 6px 8px;
+    font-size: 15px;
+    background-color: #ffca42;
+  }
+}
