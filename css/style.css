@@ -279,7 +279,6 @@ nav {
 }
 
 .basliqParaqraf {
-
   h2 {
     display: inline;
     color: #1b3764;
@@ -338,4 +337,8 @@ nav {
   img {
     width: 15vh;
   }
+}
+
+.bars {
+  display: none;
 }
