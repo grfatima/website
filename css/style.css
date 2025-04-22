@@ -194,6 +194,7 @@ nav {
 
 .infoImages {
   display: flex;
+  margin-bottom: 10%;
 
   .img {
     width: 100%;
@@ -240,12 +241,12 @@ nav {
 }
 
 .button1 {
-  margin-top: 50px;
+  margin-top: 40px;
 
   a {
     color: #1b3764;
-    transition-duration: 0.5s;
     padding: 10px 25px;
+    transition-duration: 0.5s;
     border: 1px solid #ffca42;
   }
 }
@@ -253,4 +254,88 @@ nav {
 .button1 a:hover {
   border: 1px solid #ffca42;
   background-color: #ffca42;
+}
+
+.bgColor {
+  background-color: #f4f8ff;
+}
+
+.imagesDescriptions {
+  gap: 20px;
+  display: flex;
+  padding: 9% 0;
+}
+
+.images {
+  width: 100%;
+
+  img {
+    width: 60vh;
+  }
+}
+
+.descriptionSection {
+  margin-top: 8%;
+}
+
+.basliqParaqraf {
+
+  h2 {
+    display: inline;
+    color: #1b3764;
+    font-family: cardo;
+    border-bottom: 1px solid #ffca42;
+  }
+
+  p {
+    margin: 28px 0;
+    color: #969aa0;
+    font-family: inter;
+  }
+}
+
+.users {
+  gap: 40px;
+  display: flex;
+  margin-bottom: 30px;
+
+  h2 {
+    color: #1b3764;
+    font-family: cardo;
+  }
+
+  p {
+    margin: 10px 0;
+    color: #969aa0;
+    font-family: inter;
+  }
+
+  .border {
+    padding-right: 10px;
+    border-right: 1px solid #ffca42;
+  }
+}
+
+.qrSocial {
+  gap: 25px;
+  display: flex;
+  padding: 15px 0 15px 15px;
+  background-color: #1b3764;
+
+  h4 {
+    color: #ffca42;
+    margin-top: 20px;
+    font-family: cardo;
+  }
+
+  p {
+    width: 40vh;
+    color: #969aa0;
+    margin-top: 20px;
+    font-family: inter;
+  }
+
+  img {
+    width: 15vh;
+  }
 }
