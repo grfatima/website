@@ -39,7 +39,7 @@
     padding-top: 130px;
 
     h2 {
-      width: 50vh;
+      width: 55vh;
       font-size: 40px;
     }
 
@@ -69,6 +69,14 @@
       font-family: inter;
       color: #b4c7e7;
     }
+  }
+
+  .img {
+    width: 40%;
+  }
+
+  .img img {
+    width: 45vh;
   }
 }
 
@@ -127,5 +135,24 @@
 
   .img {
     display: none;
+  }
+
+  .title {
+    p {
+      font-size: 11px;
+      width: 55vh;
+    }
+
+    h2 {
+      width: 55vh;
+    }
+  }
+
+  .sectionEnd {
+    gap: 55px;
+
+    p {
+      width: 16vh;
+    }
   }
 }
