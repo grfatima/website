@@ -97,19 +97,29 @@ nav {
 
 .descriptionImg {
   gap: 100px;
-  display: grid;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  grid-template-columns: repeat(2, 1fr);
+}
 
-  img {
-    width: 50vh;
-    padding-top: 50px;
-  }
+.description {
+  width: 50%;
+}
+
+.img {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img img {
+  width: 50vh;
+  object-fit: contain;
 }
 
 .title {
   color: white;
-  padding-top: 70px;
+  padding-top: 120px;
 
   h4 {
     font-family: cardo-italic;
@@ -117,7 +127,7 @@ nav {
 
   h2 {
     font-size: 62px;
-    margin-top: 17px;
+    margin-top: 10px;
     font-family: cardo;
   }
 
@@ -163,5 +173,6 @@ nav {
     font-size: 12px;
     font-family: inter;
     color: #b4c7e7;
+    padding-bottom: 30px;
   }
 }
