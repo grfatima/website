@@ -91,7 +91,14 @@ nav {
     font-size: 15px;
     padding: 6px 8px;
     font-family: cardo;
+    transition-duration: 0.5s;
     background-color: #ffca42;
+    border: 1px solid #ffca42;
+  }
+
+  .button a:hover {
+    border: 1px solid #ffca42;
+    background-color: white;
   }
 }
 
@@ -150,7 +157,14 @@ nav {
     font-size: 15px;
     padding: 6px 8px;
     font-family: cardo;
+    transition-duration: 0.5s;
+    border: 1px solid #ffca42;
     background-color: #ffca42;
+  }
+
+  .button a:hover {
+    border: 1px solid #ffca42;
+    background-color: white;
   }
 
   .right a {
@@ -163,6 +177,7 @@ nav {
 .sectionEnd {
   display: grid;
   color: white;
+  margin-top: 50px;
   grid-template-columns: 1fr 1fr 1fr;
 
   h2 {
@@ -229,7 +244,13 @@ nav {
 
   a {
     color: #1b3764;
+    transition-duration: 0.5s;
     padding: 10px 25px;
     border: 1px solid #ffca42;
   }
+}
+
+.button1 a:hover {
+  border: 1px solid #ffca42;
+  background-color: #ffca42;
 }
