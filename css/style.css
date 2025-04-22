@@ -25,7 +25,7 @@ header {
   background-color: #1b3764;
 }
 
-section {
+.bg-color {
   background-color: #1b3764;
 }
 
@@ -177,4 +177,59 @@ nav {
   }
 }
 
+.infoImages {
+  display: flex;
 
+  .img {
+    width: 100%;
+  }
+
+  .img img {
+    width: 50vh;
+  }
+
+  h3,
+  h2 {
+    color: #1b3764;
+  }
+
+  p {
+    font-size: 14px;
+    color: #969aa0;
+    font-family: inter;
+  }
+}
+
+.info {
+  margin: 30px 0;
+}
+.info1 {
+  margin-top: 8%;
+}
+
+.title2 h1 {
+  margin: 40px 0;
+  color: #1b3764;
+  font-family: cardo;
+  text-align: center;
+}
+
+.pageLength {
+  gap: 30px;
+  display: flex;
+  font-size: 12px;
+
+  p {
+    margin-top: 5px;
+  }
+}
+
+.button1 {
+  margin-top: 50px;
+
+  a {
+    color: #1b3764;
+    padding: 10px 25px;
+    border: 1px solid #ffca42;
+  }
+}
