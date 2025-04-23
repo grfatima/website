@@ -6,11 +6,33 @@
   .descriptionSection {
     margin-top: 2%;
   }
+
+  .box4Title p {
+    width: 33vh;
+  }
+
+  .flexBoxImg {
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
+  }
+
+  .flexBoxImg {
+    gap: 30px;
+  }
+
+  .birinciler {
+    margin-top: 4%;
+  }
+
+  .ikinciler {
+    margin-top: 4%;
   }
 
   .title {
@@ -46,6 +68,17 @@
 @media (max-width: 992px) {
   .container {
     max-width: 720px;
+  }
+
+  .box4Title p {
+    width: 23vh;
+    margin: 20px 0;
+    color: #1b3764;
+  }
+
+  .sekil img {
+    margin-top: 25%;
+    width: 90%;
   }
 
   .qutular {
@@ -220,11 +253,23 @@
       padding: 10px 0;
     }
   }
+
+  .qutular {
+    text-align: start;
+  }
+
+  .bas h2 {
+    text-align: start;
+  }
 }
 
 @media (max-width: 768px) {
   .container {
     max-width: 540px;
+  }
+
+  .sekil img {
+    display: none;
   }
 
   .qutular {
@@ -340,8 +385,8 @@
 
     p {
       width: 20vh;
-      margin-top: 10px;
       font-size: 8px;
+      margin-top: 10px;
     }
 
     img {
@@ -352,12 +397,24 @@
   .imgRight img {
     padding-top: 30%;
   }
+
+  .qutular {
+    text-align: start;
+  }
+
+  .bas h2 {
+    text-align: start;
+  }
 }
 
 @media (max-width: 576px) {
   .container {
     max-width: 100%;
     padding: 0 20px;
+  }
+
+  .sekil img {
+    display: none;
   }
 
   .title h2 {
@@ -370,8 +427,8 @@
 
   .title {
     p {
-      font-size: 11px;
       width: 60vh;
+      font-size: 11px;
     }
 
     h2 {
@@ -426,8 +483,8 @@
 
     p {
       width: 25vh;
-      margin-top: 10px;
       font-size: 10px;
+      margin-top: 10px;
     }
   }
 
@@ -474,5 +531,23 @@
       font-family: cardo;
       border: 1px solid #ffca42;
     }
+  }
+
+  .qutular {
+    text-align: start;
+  }
+
+  .bas h2 {
+    text-align: start;
+  }
+
+  .flexBoxImg {
+    margin: auto;
+  }
+
+  .box4Title p {
+    width: 30vh;
+    margin: 20px 0;
+    color: #1b3764;
   }
 }

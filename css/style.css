@@ -354,10 +354,6 @@ nav {
   text-align: center;
   justify-content: space-between;
 
-  .basliqlar1 img {
-    width: 30vh;
-  }
-
   h3 {
     margin: 20px 0;
     color: #1b3764;
@@ -413,4 +409,55 @@ nav {
 
 .imgRight img {
   width: 100%;
+}
+
+.box4Title {
+  margin: 10% 0;
+
+  h2 {
+    font-size: 35px;
+    color: #1b3764;
+    font-family: cardo;
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  h3 {
+    display: inline;
+    padding: 5px 8px;
+    margin-top: 10px;
+    color: #1b3764;
+    font-family: cardo;
+    border-radius: 50%;
+    background-color: #ffca42;
+  }
+
+  p {
+    width: 10vh;
+    margin: 20px 0;
+    color: #1b3764;
+  }
+}
+
+.flexBoxImg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.birinciler {
+  margin-top: 7%;
+}
+
+.ikinciler {
+  margin-top: 7%;
+}
+
+.birinciler1 {
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  background-color: #f4f8ff;
+}
+
+.sekil img {
+  width: 80%;
 }
