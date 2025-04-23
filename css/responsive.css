@@ -23,11 +23,38 @@
       font-size: 13px;
     }
   }
+
+  .leftInfo {
+    margin-top: 14%;
+
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      width: 50vh;
+      font-size: 15px;
+      padding: 20px 0;
+    }
+
+    a {
+      padding: 8px 15px;
+    }
+  }
 }
 
 @media (max-width: 992px) {
   .container {
     max-width: 720px;
+  }
+
+  .qutular {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .basliqlar1 img {
+      display: none;
+    }
   }
 
   .linksButton {
@@ -183,11 +210,29 @@
   .descriptionSection {
     margin-top: 5%;
   }
+
+  .leftInfo {
+    margin: 10% 0;
+
+    p {
+      width: 50vh;
+      font-size: 15px;
+      padding: 10px 0;
+    }
+  }
 }
 
 @media (max-width: 768px) {
   .container {
     max-width: 540px;
+  }
+
+  .qutular {
+    gap: 10px;
+
+    .basliqlar1 img {
+      width: 100%;
+    }
   }
 
   .links a {
@@ -303,6 +348,10 @@
       width: 9vh;
     }
   }
+
+  .imgRight img {
+    padding-top: 30%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -394,11 +443,36 @@
     display: none;
   }
 
-  .button {
-    display: none;
+  .linksButton {
+    .button {
+      display: none;
+    }
   }
 
   .bars {
     display: block;
+  }
+
+  .leftInfo {
+    margin-top: 14%;
+
+    h2 {
+      font-size: 25px;
+    }
+
+    p {
+      width: 51vh;
+      margin: 20px 0;
+      color: #b4c7e7;
+      font-family: inter;
+    }
+
+    a {
+      color: white;
+      font-size: 14px;
+      padding: 7px 13px;
+      font-family: cardo;
+      border: 1px solid #ffca42;
+    }
   }
 }

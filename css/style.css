@@ -341,4 +341,76 @@ nav {
 
 .bars {
   display: none;
+  cursor: pointer;
+}
+
+.basliqQutu {
+  margin: 8% 0;
+}
+
+.qutular {
+  gap: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+
+  .basliqlar1 img {
+    width: 30vh;
+  }
+
+  h3 {
+    margin: 20px 0;
+    color: #1b3764;
+  }
+
+  p {
+    width: 27vh;
+    color: #969aa0;
+  }
+}
+
+.bas h2 {
+  margin: 60px 0;
+  font-size: 35px;
+  color: #1b3764;
+  font-family: cardo;
+  text-align: center;
+}
+
+.bg-color {
+  background-color: #1b3764;
+}
+
+.infoImg {
+  padding: 6% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftInfo {
+  margin-top: 10%;
+
+  h2 {
+    color: white;
+    font-size: 35px;
+    font-family: cardo;
+  }
+
+  p {
+    width: 51vh;
+    margin: 40px 0;
+    color: #b4c7e7;
+    font-family: inter;
+  }
+
+  a {
+    color: white;
+    padding: 8px 15px;
+    font-family: cardo;
+    border: 1px solid #ffca42;
+  }
+}
+
+.imgRight img {
+  width: 100%;
 }
