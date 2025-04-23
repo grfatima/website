@@ -550,4 +550,10 @@
     margin: 20px 0;
     color: #1b3764;
   }
+
+  .inputButton button {
+    width: 60vh;
+    height: 8vh;
+    margin-top: 10px;
+  }
 }

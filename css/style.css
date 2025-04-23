@@ -461,3 +461,42 @@ nav {
 .sekil img {
   width: 80%;
 }
+
+.backgroundColor {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #ffca42;
+  margin-bottom: 10%;
+
+  h2 {
+    font-size: 35px;
+    color: #1b3764;
+    font-family: cardo;
+  }
+
+  p {
+    width: 60vh;
+    color: #1b3764;
+    margin: 30px auto;
+    font-size: 13px;
+    font-family: inter;
+  }
+}
+
+.inputButton {
+  input {
+    width: 60vh;
+    height: 8vh;
+    padding: 0 15px;
+    border: #ffca42 1px solid;
+  }
+
+  button {
+    color: white;
+    cursor: pointer;
+    padding: 17px 35px;
+    font-family: cardo;
+    border: #1b3764 1px solid;
+    background-color: #1b3764;
+  }
+}
